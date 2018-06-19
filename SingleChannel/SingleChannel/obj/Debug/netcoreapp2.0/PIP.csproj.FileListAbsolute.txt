@@ -1,0 +1,11 @@
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\bin\Debug\netcoreapp2.0\PIP.deps.json
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\bin\Debug\netcoreapp2.0\PIP.runtimeconfig.json
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\bin\Debug\netcoreapp2.0\PIP.runtimeconfig.dev.json
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\bin\Debug\netcoreapp2.0\PIP.dll
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\bin\Debug\netcoreapp2.0\PIP.pdb
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\obj\Debug\netcoreapp2.0\PIP.csprojResolveAssemblyReference.cache
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\obj\Debug\netcoreapp2.0\PIP.csproj.CoreCompileInputs.cache
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\obj\Debug\netcoreapp2.0\PIP.AssemblyInfoInputs.cache
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\obj\Debug\netcoreapp2.0\PIP.AssemblyInfo.cs
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\obj\Debug\netcoreapp2.0\PIP.dll
+C:\Users\zhangcs\Desktop\opensource\PIP\PIP\obj\Debug\netcoreapp2.0\PIP.pdb

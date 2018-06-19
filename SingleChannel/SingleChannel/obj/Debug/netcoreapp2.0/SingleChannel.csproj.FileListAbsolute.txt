@@ -1,0 +1,11 @@
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\bin\Debug\netcoreapp2.0\SingleChannel.deps.json
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\bin\Debug\netcoreapp2.0\SingleChannel.runtimeconfig.json
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\bin\Debug\netcoreapp2.0\SingleChannel.runtimeconfig.dev.json
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\bin\Debug\netcoreapp2.0\SingleChannel.dll
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\bin\Debug\netcoreapp2.0\SingleChannel.pdb
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\obj\Debug\netcoreapp2.0\SingleChannel.csprojResolveAssemblyReference.cache
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\obj\Debug\netcoreapp2.0\SingleChannel.csproj.CoreCompileInputs.cache
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\obj\Debug\netcoreapp2.0\SingleChannel.AssemblyInfoInputs.cache
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\obj\Debug\netcoreapp2.0\SingleChannel.AssemblyInfo.cs
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\obj\Debug\netcoreapp2.0\SingleChannel.dll
+E:\zcsgit\.Net Core Channel\SingleChannel\SingleChannel\obj\Debug\netcoreapp2.0\SingleChannel.pdb
