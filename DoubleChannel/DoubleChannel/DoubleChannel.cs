@@ -6,23 +6,21 @@ using System.Threading.Tasks;
 
 namespace DoubleChannel
 {
-    public class PIPING
+    public class DoubleChannel
     {
         private IList<Func<RequestDelegate, RequestDelegate>> middlewares = new List<Func<RequestDelegate, RequestDelegate>>();
         public RequestDelegate Build()
         {
-            RequestDelegate seed = context => Task.Run(() => {
-
-            });
+            RequestDelegate seed = context => { };
             return middlewares.Reverse().Aggregate(seed, (next, current) => current(next));
         }
-        public PIPING Use(Func<RequestDelegate, RequestDelegate> middleware)
+        public DoubleChannel Use(Func<RequestDelegate, RequestDelegate> middleware)
         {
             middlewares.Add(middleware);
             return this;
         }
 
-        public PIPING Use(IMiddleware middleware)
+        public DoubleChannel Use(BaseMiddleware middleware)
         {
             Func<RequestDelegate, RequestDelegate> mymiddleware = next =>
             {
@@ -45,9 +43,16 @@ namespace DoubleChannel
 
     public delegate void RequestDelegate(MyContext context);
 
-    public interface IMiddleware
+    public abstract class BaseMiddleware
     {
-        void BeforeNextInvoke(MyContext context);
-        void AfterNextInvoke(MyContext context);
+        public virtual void BeforeNextInvoke(MyContext context)
+        {
+            return;
+        }
+
+        public virtual void AfterNextInvoke(MyContext context)
+        {
+            return;
+        }
     }
 }

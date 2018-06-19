@@ -9,7 +9,7 @@ namespace DoubleChannel
         public static string test = String.Empty;
         static void Main(string[] args)
         {
-            PIPING pip = new PIPING();
+            DoubleChannel pip = new DoubleChannel();
             Func<RequestDelegate, RequestDelegate> action1 = next =>
             {
                 return context =>
@@ -49,26 +49,26 @@ namespace DoubleChannel
         }
     }
 
-    public class MyMiddleware : IMiddleware
+    public class MyMiddleware : BaseMiddleware
     {
-        public void AfterNextInvoke(MyContext context)
+        public override void AfterNextInvoke(MyContext context)
         {
             context.Value += "a";
         }
 
-        public void BeforeNextInvoke(MyContext context)
+        public override void BeforeNextInvoke(MyContext context)
         {
             context.Value += "A";
         }
     }
-    public class MyMiddleware1 : IMiddleware
+    public class MyMiddleware1 : BaseMiddleware
     {
-        public void AfterNextInvoke(MyContext context)
+        public override void AfterNextInvoke(MyContext context)
         {
             context.Value += "b";
         }
 
-        public void BeforeNextInvoke(MyContext context)
+        public override void BeforeNextInvoke(MyContext context)
         {
             context.Value += "B";
         }

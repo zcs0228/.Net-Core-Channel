@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SingleChannel
 {
-    public class PIPING
+    public class SingleChannel
     {
         private IList<Func<RequestDelegate, RequestDelegate>> middlewares = new List<Func<RequestDelegate, RequestDelegate>>();
         public RequestDelegate Build()
@@ -16,13 +16,13 @@ namespace SingleChannel
             });
             return middlewares.Reverse().Aggregate(seed, (next, current) => current(next));
         }
-        public PIPING Use(Func<RequestDelegate, RequestDelegate> middleware)
+        public SingleChannel Use(Func<RequestDelegate, RequestDelegate> middleware)
         {
             middlewares.Add(middleware);
             return this;
         }
 
-        public PIPING Use(IMiddleware middleware)
+        public SingleChannel Use(IMiddleware middleware)
         {
             Func<RequestDelegate, RequestDelegate> mymiddleware = next =>
             {

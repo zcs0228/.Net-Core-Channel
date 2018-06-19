@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\zcsgit\\.Net Core Channel\\DoubleChannel\\DoubleChannel\\DoubleChannel.csproj",
+      "projectUniqueName": "E:\\zcsgit\\.Net-Core-Channel\\DoubleChannel\\DoubleChannel\\DoubleChannel.csproj",
       "projectName": "DoubleChannel",
-      "projectPath": "E:\\zcsgit\\.Net Core Channel\\DoubleChannel\\DoubleChannel\\DoubleChannel.csproj",
+      "projectPath": "E:\\zcsgit\\.Net-Core-Channel\\DoubleChannel\\DoubleChannel\\DoubleChannel.csproj",
       "packagesPath": "C:\\Users\\zhangcs\\.nuget\\packages\\",
-      "outputPath": "E:\\zcsgit\\.Net Core Channel\\DoubleChannel\\DoubleChannel\\obj\\",
+      "outputPath": "E:\\zcsgit\\.Net-Core-Channel\\DoubleChannel\\DoubleChannel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

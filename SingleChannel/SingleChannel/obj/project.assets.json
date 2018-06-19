@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\zcsgit\\.Net Core Channel\\SingleChannel\\SingleChannel\\SingleChannel.csproj",
+      "projectUniqueName": "E:\\zcsgit\\.Net-Core-Channel\\SingleChannel\\SingleChannel\\SingleChannel.csproj",
       "projectName": "SingleChannel",
-      "projectPath": "E:\\zcsgit\\.Net Core Channel\\SingleChannel\\SingleChannel\\SingleChannel.csproj",
+      "projectPath": "E:\\zcsgit\\.Net-Core-Channel\\SingleChannel\\SingleChannel\\SingleChannel.csproj",
       "packagesPath": "C:\\Users\\zhangcs\\.nuget\\packages\\",
-      "outputPath": "E:\\zcsgit\\.Net Core Channel\\SingleChannel\\SingleChannel\\obj\\",
+      "outputPath": "E:\\zcsgit\\.Net-Core-Channel\\SingleChannel\\SingleChannel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

@@ -9,7 +9,7 @@ namespace SingleChannel
         public static string test = String.Empty;
         static void Main(string[] args)
         {
-            PIPING pip = new PIPING();
+            SingleChannel pip = new SingleChannel();
             Func<RequestDelegate, RequestDelegate> action1 = next =>
             {
                 return context =>
