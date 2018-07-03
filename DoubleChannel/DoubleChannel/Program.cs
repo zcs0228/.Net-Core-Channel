@@ -10,6 +10,7 @@ namespace DoubleChannel
         static void Main(string[] args)
         {
             DoubleChannel pip = new DoubleChannel();
+
             Func<RequestDelegate, RequestDelegate> action1 = next =>
             {
                 return context =>
@@ -40,6 +41,7 @@ namespace DoubleChannel
                 };
             };
             //pip.Use(action3);
+
             pip.Use(new MyMiddleware());
             pip.Use(new MyMiddleware1());
             MyContext mycontext = new MyContext();

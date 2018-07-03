@@ -14,9 +14,9 @@ E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\bin\Debug\netcoreapp2.0\
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\bin\Debug\netcoreapp2.0\DoubleChannel.runtimeconfig.dev.json
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\bin\Debug\netcoreapp2.0\DoubleChannel.dll
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\bin\Debug\netcoreapp2.0\DoubleChannel.pdb
-E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\obj\Debug\netcoreapp2.0\DoubleChannel.csprojResolveAssemblyReference.cache
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\obj\Debug\netcoreapp2.0\DoubleChannel.csproj.CoreCompileInputs.cache
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\obj\Debug\netcoreapp2.0\DoubleChannel.AssemblyInfoInputs.cache
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\obj\Debug\netcoreapp2.0\DoubleChannel.AssemblyInfo.cs
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\obj\Debug\netcoreapp2.0\DoubleChannel.dll
 E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\obj\Debug\netcoreapp2.0\DoubleChannel.pdb
+E:\zcsgit\.Net-Core-Channel\DoubleChannel\DoubleChannel\obj\Debug\netcoreapp2.0\DoubleChannel.csprojAssemblyReference.cache
